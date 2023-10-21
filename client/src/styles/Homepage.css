@@ -6,6 +6,9 @@
   color: gray;
   font-family: "Playfair Display", serif;
 }
+.home-page .card-title{
+  color: black;
+}
 
 .home-page {
   display: flex;
@@ -13,7 +16,8 @@
 }
 .home-page .card {
   background-color: rgba(128, 128, 128, 0.097);
-  width: 18rem;
+  width: 21rem;
+  padding: 10px;
 }
 .home-page .card-name-price {
   display: flex;
@@ -43,7 +47,7 @@
 }
 
 .home-page .card-img-top {
-  height: 300px !important;
+  height: 225px !important;
 }
 /* ==================
 filters
@@ -89,4 +93,10 @@ filters
 
 .maincontent{
   margin-top: 3.5rem;
+  color: #ffffff;
+}
+
+.ant-scroll-number {
+    margin-top: 0px !important;
+    right: 0px !important;
 }

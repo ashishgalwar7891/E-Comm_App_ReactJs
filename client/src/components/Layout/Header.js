@@ -9,7 +9,6 @@ import { useCart } from "../../context/cart";
 import { Badge } from "antd";
 
 
-
 const Header = () => {
   const [auth, setAuth] = useAuth();
   const [cart] = useCart();
@@ -29,7 +28,7 @@ const Header = () => {
         <div className="container-fluid">
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
             <Link to="/" className="navbar-brand">
-              🛒 Ecommerce App 
+              🛒 Ecommerce App
             </Link>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <SearchInput />
@@ -114,12 +113,15 @@ const Header = () => {
                   </li>
                 </>
               )}
-              
-              
-              
+
               <li className="nav-item">
-                <NavLink to="/cart" className="nav-link">
-                  <Badge count={cart?.length} showZero offset={[10, -5]}>
+                <NavLink to="/cart">
+                  <Badge
+                    count={cart?.length}
+                    className="nav-link "
+                    showZero
+                    offset={[10, -5]}
+                  >
                     Cart
                   </Badge>
                 </NavLink>
@@ -133,3 +135,6 @@ const Header = () => {
 };
 
 export default Header;
+
+
+

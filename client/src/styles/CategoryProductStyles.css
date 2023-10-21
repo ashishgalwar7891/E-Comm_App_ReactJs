@@ -1,10 +1,10 @@
 .category {
   flex-wrap: wrap;
-  margin-top: 80px !important;
+  color: black;
 }
 .category .card {
-  background-color: rgba(128, 128, 128, 0.097);
-  width: 18rem;
+  background-color: rgba(181, 177, 177, 0.097);
+  width: 25rem;
 }
 .category .card-name-price {
   display: flex;
@@ -34,5 +34,10 @@
 }
 
 .category .card-img-top {
-  height: 300px !important;
+  height: 225px !important;
 }
+
+.cont .card{
+  margin: 30px;
+}
+

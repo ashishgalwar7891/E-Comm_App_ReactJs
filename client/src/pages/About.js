@@ -13,13 +13,17 @@ const About = () => {
           />
         </div>
         <div className="col-md-4">
-          <p className="text-justify mt-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            officiis obcaecati esse tempore unde ratione, eveniet mollitia,
-            perferendis eius temporibus dicta blanditiis doloremque explicabo
-            quasi sunt vero optio cum aperiam vel consectetur! Laborum enim
-            accusantium atque, excepturi sapiente amet! Tenetur ducimus aut
-            commodi illum quidem neque tempora nam.
+          <h1 className="bg-dark p-2 text-white text-center">About US</h1>
+          <p className="text-justify text-center mt-2">
+            Welcome to Over E-commerce Website! We are your one-stop
+            destination for all your shopping needs. Our mission is to provide
+            you with a seamless online shopping experience, offering a wide
+            range of high-quality products at competitive prices. With a
+            commitment to customer satisfaction, we strive to exceed your
+            expectations with exceptional service and a user-friendly interface.
+            Explore our vast selection of products and discover why we're the
+            preferred choice for online shoppers worldwide. Thank you for
+            choosing us, and we look forward to serving you!
           </p>
         </div>
       </div>

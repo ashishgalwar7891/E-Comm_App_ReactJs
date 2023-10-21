@@ -61,7 +61,7 @@ const Profile = () => {
             </div>
             <div className="col-md-8">
               <div className="card" style={{ marginTop: "-40px"}}>
-                <form onSubmit={handleSubmit} className="form" style={  {position:"relative",left: "20rem"}}>
+                <form onSubmit={handleSubmit} className="form" style={  {position:"relative"}}>
                   <h4 className="title">USER PROFILE</h4>
                   <div className="mb-3">
                     <input

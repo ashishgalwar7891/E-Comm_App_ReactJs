@@ -1,5 +1,6 @@
 .cart-page {
   margin-top: 64px;
+  color: #000;
 }
 
 .cart-page h1 {
@@ -7,6 +8,7 @@
   font-family: "roboto", sans-serif;
   font-weight: normal;
   background-color: rgba(0, 0, 255, 0.072) !important;
+
 }
 .cart-page h1 > p {
   font-size: 20px;
@@ -26,4 +28,8 @@
 .cart-page .cart-summary {
   text-align: center;
   /* margin-top: -140px !important; */
+}
+
+.cart-page .showcard{
+  max-width: 800px;
 }

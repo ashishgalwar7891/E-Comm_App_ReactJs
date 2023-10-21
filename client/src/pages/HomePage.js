@@ -117,13 +117,6 @@ const HomePage = () => {
 
   return (
     <Layout title={"ALl Products - Best offers "}>
-      {/* banner image
-      <img
-        src="/images/banner.png"
-        className="banner-img"
-        alt="bannerimage"
-        width={"100%"}
-      /> */}
       <div
         id="carouselExampleInterval"
         className="carousel slide"
@@ -132,20 +125,6 @@ const HomePage = () => {
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval={3000}>
             <img
-              src="/images/banner2.jpg"
-              className="d-block w-100"
-              alt="/images/banner1.jpg"
-            />
-          </div>
-          <div className="carousel-item" data-bs-interval={3000}>
-            <img
-              src="/images/banner4.png"
-              className="d-block w-100"
-              alt="/images/banner4.png"
-            />
-          </div>
-          <div className="carousel-item" data-bs-interval={3000}>
-            <img
               src="/images/banner1.png"
               className="d-block w-100"
               alt="/images/banner1.png"
@@ -153,9 +132,23 @@ const HomePage = () => {
           </div>
           <div className="carousel-item" data-bs-interval={3000}>
             <img
+              src="/images/banner2.png"
+              className="d-block w-100"
+              alt="/images/banner2.png"
+            />
+          </div>
+          <div className="carousel-item" data-bs-interval={3000}>
+            <img
               src="/images/banner3.png"
               className="d-block w-100"
               alt="/images/banner3.png"
+            />
+          </div>
+          <div className="carousel-item" data-bs-interval={3000}>
+            <img
+              src="/images/banner4.png"
+              className="d-block w-100"
+              alt="/images/banner4.png"
             />
           </div>
         </div>
@@ -225,7 +218,7 @@ const HomePage = () => {
                 />
                 <div className="card-body">
                   <div className="card-name-price">
-                    <h5 className="card-title">{p.name}</h5>
+                    <h5 className="card-title">{p.name.substring(0,30)}</h5>
                     <h5 className="card-title card-price">
                       {p.price.toLocaleString("en-US", {
                         style: "currency",
